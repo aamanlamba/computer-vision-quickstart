@@ -71,6 +71,7 @@ namespace computer_vision_quickstart
             foreach(var category in results.Categories){
                     Console.WriteLine($"{category.Name} with confidence {category.Score}");
             }
+            
             /**
                 [JsonProperty(PropertyName = "categories")]
                 public IList<Category> Categories { get; set; }
